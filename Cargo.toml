@@ -18,7 +18,10 @@ path = "src/libinterval/lib.rs"
 
 [dependencies]
 
-num = "^0.1.29"
+num = "^0.2"
 bit-set = "^0.2.0"
 gcollections = "^1.4.0"
 trilean = "^1.0.1"
+
+[patch.crates-io]
+gcollections = { path = "../gcollections" }
