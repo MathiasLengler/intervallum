@@ -24,4 +24,4 @@ gcollections = "^1.4.0"
 trilean = "^1.0.1"
 
 [patch.crates-io]
-gcollections = { path = "../gcollections" }
+gcollections = { git = "https://github.com/MathiasLengler/gcollections" }
