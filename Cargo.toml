@@ -25,3 +25,4 @@ trilean = "^1.0.1"
 
 [patch.crates-io]
 gcollections = { git = "https://github.com/MathiasLengler/gcollections" }
+intervallum = { git = "https://github.com/MathiasLengler/intervallum" }
